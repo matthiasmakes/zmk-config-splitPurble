@@ -18,7 +18,7 @@
             bindings = <
                 &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5               &kp N6            &kp N7   &kp N8       &kp N9       &kp N0      &kp MINUS  &kp EQUAL         &kp BSPC        
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T                &kp Y             &kp U    &kp I        &kp O        &kp P       &kp LBKT   &kp RBKT     &kp NUBS   &kp DEL
-                &mo 2       &kp A       &kp S       &kp D       &kp F       &kp G                &kp H             &kp J    &kp K        &kp L        &kp SEMI    &kp SQT    &kp NUHS    &kp ENTER  &kp ENTER
+                &tog 4       &kp A       &kp S       &kp D       &kp F       &kp G                &kp H             &kp J    &kp K        &kp L        &kp SEMI    &kp SQT    &kp NUHS    &kp ENTER  &kp ENTER
                 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B                &kp N             &kp M    &kp COMMA    &kp DOT      &kp SLASH         &kp RSHFT         &kp UP     &kp G  
                 &kp LCTRL   &kp LGUI    &mo 3       &mo 1       &kp LALT    &kp SPACE        &kp SPACE     &mt RALT BSPC    &kp RALT     &mo 1        &kp G       &kp G      &kp LEFT     &kp DOWN   &kp RIGHT
             >;
@@ -53,6 +53,16 @@
                 &out OUT_USB  &out OUT_BLE   &trans         &trans         &trans         &trans         &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans     &trans
                 &bt BT_CLR    &trans         &trans         &trans         &trans         &trans         &trans   &trans   &trans   &trans   &trans         &trans      &trans     &trans  
                 &trans        &trans         &trans         &trans         &trans         &trans         &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans     &trans
+            >;
+        };
+
+         colmak_dk_layer {
+            bindings = <
+               &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5               &kp N6            &kp N7   &kp N8       &kp N9       &kp N0      &kp MINUS  &kp EQUAL         &kp BSPC        
+                &kp TAB     &kp Q       &kp LBKT   &kp F       &kp P       &kp G                &kp J             &kp L    &kp U        &kp Y        &kp Q       &kp W    &kp RBKT     &kp NUBS   &kp DEL
+                &tog 4       &kp A       &kp R       &kp S       &kp T       &kp D               &kp H             &kp N    &kp E        &kp I       &kp O       &kp SQT    &kp NUHS    &kp ENTER  &kp ENTER
+                &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B               &kp K             &kp M    &kp COMMA    &kp DOT     &kp SLASH         &kp RSHFT         &kp UP     &kp G  
+                &kp LCTRL   &kp LGUI    &mo 3       &mo 1       &kp LALT    &kp SPACE        &kp SPACE     &mt RALT BSPC    &kp RALT     &mo 1       &kp G       &kp G      &kp LEFT     &kp DOWN   &kp RIGHT    
             >;
         };
     };
