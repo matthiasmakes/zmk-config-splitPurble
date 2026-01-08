@@ -43,9 +43,9 @@
             bindings = <
                 &trans     &trans   &trans    &trans   &trans   &trans          &none           &none           &none            &none             &none      &none      &none       &none                   
                 &trans     &trans   &trans    &trans   &trans   &trans          &msc SCRL_UP    &none           &mmv MOVE_UP     &none             &none      &none      &none  &none    &none
-                &trans     &trans   &trans    &trans   &trans   &trans          &msc SCRL_DOWN	&mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &mkp RCLK  &none      &none  &none    &none
+                &trans     &trans   &trans    &trans   &trans   &trans          &msc SCRL_DOWN	&mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none      &none      &none  &none    &none
                 &trans     &trans   &trans    &trans   &trans   &trans          &none           &none           &none            &none             &none          &none         &none    &none
-                &trans     &trans   &trans    &trans   &trans   &trans          &mkp LCLK       &none           &none            &none             &none      &none      &none  &none    &none
+                &trans     &trans   &trans    &trans   &trans   &trans          &mkp LCLK       &mkp RCLK       &none            &none             &none      &none      &none  &none    &none
             >;
         };
 
