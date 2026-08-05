@@ -3,6 +3,6 @@ id: splitPurble
 name: splitPurble
 type: shield
 url: https://github.com/matthiasmakes/zmk-config-splitPurble
-requires: [nice_nano_v2]
+requires: [nice_nano@2.0.0//zmk]
 features:
   - keys
